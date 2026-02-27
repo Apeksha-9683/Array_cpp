@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int arr[]={1,2,3,7,4,34,235,9,16};
+    int arr[]={2,-3,6,-5,4,2};
     int n= sizeof(arr)/sizeof(int);
     int start=0;
     int end = n-1;
