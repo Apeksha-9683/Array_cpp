@@ -9,3 +9,12 @@ void reverse(char word[], int n){
         end--;
     }
 }
+
+
+int main(){
+    char word[100]={'h','e','l','l','o','\0'};
+    reverse(word, 5);
+    cout<<"Reversed word is: "<<word<<endl;
+    return 0;
+    
+}
